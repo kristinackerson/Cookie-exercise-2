@@ -9,12 +9,9 @@ var bigCookie = document.getElementById('bigCookie');
 
 // When cookie is clicked, change inner html to 1 cookie per second
 function updateCookieCount() {
-	cookies.length = '10 cookie per second';
+	cookies.innerHTML = '10 cookies per second';
 };
 bigCookie.addEventListener('click', updateCookieCount, false);
- 
- 
- // 
  
  
  
